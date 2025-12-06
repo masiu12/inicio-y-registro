@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Registro</title>
+
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+<div class="card">
+<h2>Crear Cuenta</h2>
+
+<input id="regUser" type="text" placeholder="Usuario o Nombre">
+<input id="regEmail" type="text" placeholder="Correo Electrónico">
+<input id="regCel" type="text" placeholder="Número de Celular ">
+
+<input id="regPass" type="password" placeholder="Contraseña">
+<label class="checkbox-control"><input type="checkbox" onclick="toggle('regPass')"> Ver contraseña</label>
+
+<input id="regPass2" type="password" placeholder="Repetir Contraseña">
+<label class="checkbox-control"><input type="checkbox" onclick="toggle('regPass2')"> Ver contraseña</label>
+
+<button onclick="registrar()">Registrar</button>
+<p id="msgReg"></p>
+<a href="../index.html">Volver al Login</a>
+</div>
+<script src="../js/main.js"></script>
+</body>
+</html>
