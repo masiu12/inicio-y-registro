@@ -1,0 +1,71 @@
+body {
+font-family: Arial, sans-serif;
+background: #f2f2f2;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+
+.card {
+background: white;
+padding: 25px;
+width: 300px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+
+input {
+width: 100%;
+margin: 8px 0;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid #aaa;
+}
+
+
+button {
+width: 100%;
+padding: 10px;
+background: #4CAF50;
+border: none;
+color: white;
+border-radius: 6px;
+cursor: pointer;
+}
+
+
+button:hover {
+background: #45a049;
+}
+
+
+a {
+font-size: 14px;
+display: inline-block;
+margin-top: 10px;
+color: #333;
+}
+.checkbox-control {
+   
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    cursor: pointer;
+    padding: 6px 0;
+}
+.checkbox-control input[type="checkbox"] {
+    width: auto; 
+    margin: 0;
+}
+
+.checkbox-control input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+    order: 1; 
+}
